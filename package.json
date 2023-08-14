@@ -1,0 +1,28 @@
+{
+  "name": "mobxCodeGeneratorCLI",
+  "version": "1.0.0",
+  "description": "Your CLI Description",
+  "main": "dist/cli.js",
+  "module": "dist/cli.m.js",
+  "unpkg": "dist/cli.umd.js",
+  "types": "dist/cli.d.js",
+  "bin": {
+    "mobxCodeGeneratorCLI": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Ayadi Mohamed",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@types/prompts": "^2.4.4",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "execa": "^7.2.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "prompts": "^2.4.2"
+  }
+}
